@@ -1,0 +1,33 @@
+{
+  "name": "jiuyan/laravel-id-generator",
+  "description": "id生成器",
+  "authors": [
+    {
+      "name": "xinghuo",
+      "email": "xinghuo@In66.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7",
+    "squizlabs/php_codesniffer": "^3.0",
+    "mockery/mockery": "^0.9.9"
+  },
+  "repositories": [
+    {
+      "packagist": false
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  ],
+  "autoload":{
+    "psr-4": {"Jiuyan\\IdGenerator\\": "src/main/"}
+  },
+  "config":{
+    "secure-http":false
+  },
+  "prefer-stable": true
+}
